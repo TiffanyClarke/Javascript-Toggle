@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <title>Javascript and jQuery</title>
+     <!-- link to the jquery library, not required for pure javascript! -->
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+</head>
+<body>
+    <div id="javascriptWrapper"></div>
+    	<script type="text/javascript">
+    		document.write("<p>Here is some javascript</p>");
+    	</script>
+    <div id="jqueryWrapper"></div>
+    <button id="toggle">Toggle It!</button>
+    <script>
+    	//add html to the element
+   		 $("#jqueryWrapper").html("</p>Here is some jQuery!</p>");
+   		 //create a sliding toggle animation
+   		 $("#toggle").on("click", function(){
+		$("#jqueryWrapper").slideToggle(500 /*how quickly this happens*/);
+		});
+	</script>
+</body>
+</html>

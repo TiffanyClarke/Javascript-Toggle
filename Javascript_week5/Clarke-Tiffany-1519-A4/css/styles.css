@@ -1,0 +1,62 @@
+/*Image layout*/
+.gallery {
+	text-align: center; 
+}
+.gallery img {
+	max-width: 25%;
+	height: auto;
+	margin: 5px;
+	padding: 5px
+}
+.thumbnail {
+	max-width: 100%;
+	height: auto;
+}
+.parallax {
+	text-align: center;
+}
+/*website layout*/
+h2, p{font-family: 'Hammersmith One', sans-serif;
+	font-size: 15px;
+}
+h1 {
+	font-family: 'Berkshire Swash', cursive;
+	margin: 4em;
+}
+header { 
+	font-family: 'Hammersmith One', sans-serif; 
+	font-size: 45px;
+	text-align: left; 
+	background-color: #69C3E2; 
+	padding: 30px; 
+	position: fixed; 
+	width: 100%; 
+	top: 0;
+}
+hr{
+	height: 200px;
+}
+body {
+	background-color: #376B34;
+}
+footer {
+	position: absolute;
+	background-color: orange;
+	text-align: center;
+	height: 70px;
+	width: 100%;
+}
+/*float styles*/
+.flo {
+	text-align: left;
+	width: 100%;
+	height: auto;
+}
+.flo2 div{
+	clear: both;
+}
+.flo div {
+	float: left;
+	width: 40%;
+	margin: 5%
+} 
